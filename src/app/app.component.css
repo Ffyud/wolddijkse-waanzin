@@ -1,0 +1,138 @@
+.content {
+    display: grid;
+    grid-template-rows: 250px 200px auto 200px;
+    height: 100vh;
+    align-items: center;
+}
+
+.logo-wrap {
+    background: var(--primary-color);
+}
+
+img.logo {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.subtitle {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+header {
+    height: 200px;
+    background: linear-gradient(354deg, var(--secondary-color) 50%, var(--primary-color) 50%, var(--primary-color) 100%)
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #000;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px 5px var(--tertiary-color);
+    line-height: 50px;
+    text-align: center;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+h1.wolddijkse {
+    position: relative;
+    z-index: 2;
+}
+
+h1.waanzin {
+    z-index: 1;
+    position: relative;
+    top: 7px;
+    left: 40px;
+}
+
+.route-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0px auto;
+    min-width: 300px;
+}
+
+span.route-start {
+    width: fit-content;
+    z-index: 1;
+    position: relative;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 0px 3px var(--tertiary-color);
+    color: var(--tertiary-color);
+    display: block;
+    transform: rotate(-2deg);
+    left: 0;
+    bottom: 35px;
+}
+
+span.route-end {
+    width: fit-content;
+    z-index: 1;
+    position: absolute;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 0px 3px var(--tertiary-color);
+    color: var(--tertiary-color);
+    display: block;
+    transform: rotate(2deg);
+    right: 0;
+}
+
+span.route-length {
+    position: absolute;
+    left: 65%;
+    top: 32%;
+    background: var(--tertiary-color);
+    border-radius: 100%;
+    padding: 15px;
+    color: var(--secondary-color);
+    line-height: 50px;
+    width: 50px;
+}
+
+svg.route {
+    position: relative;
+    left: 40%;
+    display: block;
+    transform: rotateX(34deg) rotateY(-6deg) rotateZ(10deg) skewX(-13deg) skewY(-2deg);
+}
+
+.date {
+    margin: 45px auto;
+    width: 150px;
+    box-shadow: 0px 2px 0px 5px var(--tertiary-color);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.date .day {
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--tertiary-color);
+}
+
+.date .month {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--tertiary-color);
+}
+
+.date .year {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--tertiary-color);
+}
+
+footer {
+    height: 200px;
+    background: linear-gradient(354deg, var(--primary-color) 50%, var(--secondary-color) 50%, var(--secondary-color) 100%)
+}

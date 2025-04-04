@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #1e9e35;
+    --secondary-color: #fedda5;
+    --tertiary-color: #062101;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--secondary-color);
+}
